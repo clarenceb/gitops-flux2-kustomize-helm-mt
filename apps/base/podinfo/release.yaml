@@ -21,6 +21,8 @@ spec:
   # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml
   values:
     cache: redis-master.redis:6379
+    ui:
+      message: Hello world
     ingress:
       enabled: true
       annotations:
